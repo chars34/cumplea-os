@@ -219,15 +219,17 @@
         <!-- 7. CONFIRMACIÓN (FIRESTORE) -->
         <section id="rsvp-section" class="py-24 px-8 bg-neutral-950 text-center pb-32">
             <h2 class="font-playfair text-4xl mb-4 text-white italic">Confirmación</h2>
-            <p class="text-stone-500 text-[10px] tracking-[0.3em] uppercase mb-12">Por favor confirma antes del 5.JUL</p>
+            <p class="text-stone-500 text-[10px] tracking-[0.3em] uppercase mb-12">Por favor confirma antes del 20.JUN</p>
 
             <div id="rsvp-form" class="space-y-4">
                 <input id="rsvpName" type="text" placeholder="Tu nombre completo"
                     class="w-full p-4 rounded-2xl bg-neutral-900 border border-stone-800 text-white text-center focus:border-amber-500 outline-none">
                 
                 <div class="flex flex-col gap-2 text-left">
-                    <label class="text-[10px] text-stone-600 uppercase tracking-widest ml-4">Total de acompañantes:</label>
-                    
+                
+                    <select id="rsvpAcompañantes" >
+                        
+                    </select>
                 </div>
 
                 <button onclick="confirmarAsistencia()" id="btnConfirmar"
